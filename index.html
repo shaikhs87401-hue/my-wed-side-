@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guiding You Toward Peace & Positivity — Stress Relief & Companion</title>
+  <meta name="description" content="Personal Wellness Companion. Free booking — payment only at visit. Aurangabad, Maharashtra." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Poppins', system-ui, -apple-system, sans-serif; background: linear-gradient(180deg,#f8fbff,#ffffff); }
+    .accent { color: #198754; } 
+    .btn-ghost { background: rgba(25,135,84,0.08); color: #165c43; }
+    .whatsapp-fab { position: fixed; right: 20px; bottom: 20px; z-index: 60; }
+    @media (max-width:640px){ .hero-img{ display:none; } }
+  </style>
+</head>
+<body class="text-slate-800">
+
+  <div class="w-full bg-emerald-600 text-white text-sm text-center py-2 px-3">
+    Booking is <strong>FREE</strong> • Pay only during the visit • English / India / Marathi support
+  </div>
+
+  <header class="py-6">
+    <div class="max-w-5xl mx-auto px-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-2xl">🌿</div>
+        <div>
+          <h1 class="text-xl font-semibold">StressFreeZone</h1>
+          <p class="text-sm text-slate-500">Personal Wellness & Stress Relief Companion</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm text-slate-700">
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#charges" class="hover:underline">Charges</a>
+        <a href="#book" class="hover:underline">Book</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+<section class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center py-8">
+  <div>
+    <h2 class="text-3xl md:text-4xl font-bold leading-tight">About Me</h2>
+    <p class="mt-4 text-slate-600">
+      Hello, I am <strong>Sahil Rafik Shaikh</strong> from <strong>Aurangabad, Maharashtra.</strong><br>
+      I provide personal guidance, stress management, and happiness sessions to help people — including celebrities & professionals — overcome depression, stress, and work pressure.
+    </p>
+
+    <div class="mt-6 flex gap-3">
+      <a href="#book" class="px-5 py-3 rounded-xl bg-emerald-600 text-white font-medium shadow">Book Free Session</a>
+      <a href="#contact" class="px-5 py-3 rounded-xl btn-ghost border">Contact</a>
+    </div>
+  </div>
+  <div class="hero-img">
+    
+<div class="rounded-2xl bg-white p-8 shadow-md text-center">
+  <img src="https://cdn.pixabay.com/photo/2017/01/03/02/06/meditation-1949972_960_720.jpg" alt="Meditation Relax Person" class="w-full rounded-xl mb-4">
+  <h2 class="text-2xl font-semibold text-emerald-700">Guiding You Toward Peace & Positivity</h2>
+</div>
+
+  </div>
+</section>
+
+
+  
+<section id="services" class="py-12">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h3 class="text-2xl font-semibold">Services</h3>
+    <div class="mt-6 grid md:grid-cols-2 gap-4 text-left">
+      <div class="p-5 bg-white rounded-xl shadow-sm">
+        <h4 class="font-semibold">Stress Relief & Happiness Guidance</h4>
+      </div>
+      <div class="p-5 bg-white rounded-xl shadow-sm">
+        <h4 class="font-semibold">Personal Communication & Counseling</h4>
+      </div>
+      <div class="p-5 bg-white rounded-xl shadow-sm">
+        <h4 class="font-semibold">Wellness & Relaxation Guidance</h4>
+      </div>
+      <div class="p-5 bg-white rounded-xl shadow-sm">
+        <h4 class="font-semibold">Music, Travel & Trips for Stress Management</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+<section id="services-list" class="py-12 bg-slate-50">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h3 class="text-2xl font-semibold">Service Plans</h3>
+    <ul class="mt-4 text-lg text-slate-700 space-y-4 text-left">
+      <li><strong>1. Call Consultation – ₹500/-</strong><br>Personal conversation over phone (approx. 30–45 minutes). Helps with stress relief, motivation, and emotional guidance.</li>
+      <li><strong>2. Weekly / Monthly Package – ₹5000/-</strong><br>In-person sessions where I personally visit clients for stress management, motivation, and mindset improvement. No online or phone sessions.</li>
+      <li><strong>3. Traveling & Trip Session</strong><br>For longer trips or travel-based sessions. All travel & stay expenses are covered by the client. An additional ₹5000 professional fee is paid at the end of the session.</li>
+    </ul>
+  </div>
+</section>
+
+
+  <section id="book" class="py-12">
+    <div class="max-w-2xl mx-auto px-4">
+      <h3 class="text-2xl font-semibold text-center">Book a Free Session</h3>
+      <p class="text-center text-sm text-slate-500 mt-2">Fill details — I will message you to confirm time.</p>
+      <form onsubmit="sendBooking(event)" class="mt-6 bg-white p-6 rounded-xl shadow">
+        <div class="grid gap-3">
+          <input type="text" id="name" placeholder="Your name" required class="w-full border rounded px-3 py-2">
+          <input type="text" id="location" placeholder="Your city / area" required class="w-full border rounded px-3 py-2">
+          <input type="datetime-local" id="datetime" class="w-full border rounded px-3 py-2">
+          <select id="serviceSelect" class="w-full border rounded px-3 py-2">
+            <option value="">Select service</option>
+            <option>Mind Relaxation & Meditation Guidance</option>
+            <option>Personal Counseling (Online / In-Person)</option>
+            <option>Music Therapy Session</option>
+            <option>Travel & Nature Healing Session</option>
+            <option>Emotional Healing Session</option>
+          </select>
+          <textarea id="notes" placeholder="Short note (optional)" class="w-full border rounded px-3 py-2"></textarea>
+          <button class="w-full bg-emerald-600 text-white py-3 rounded-xl font-medium">Send Booking (WhatsApp)</button>
+        </div>
+      </form>
+      <p class="text-sm text-slate-500 mt-3">Tip: bookings are free — payment only when I visit.</p>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-sm text-slate-500">
+    © <span id="year"></span> StressFreeZone — All rights reserved
+  </footer>
+
+  <a class="whatsapp-fab" href="https://wa.me/918668931097?text=Hello%20Sahil%2C%20I%20want%20to%20book%20a%20session" target="_blank" rel="noopener">
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64'><circle cx='32' cy='32' r='32' fill='%2316a34a'/><text x='50%' y='54%' font-size='30' text-anchor='middle' fill='white' font-family='Poppins'>💬</text></svg>" alt="WhatsApp" class="w-14 h-14 shadow-lg rounded-full">
+  </a>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  function sendBooking(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const location = document.getElementById('location').value.trim();
+    const datetime = document.getElementById('datetime').value;
+    const service = document.getElementById('serviceSelect').value;
+    const notes = document.getElementById('notes').value.trim();
+    let msg = `Booking%20Request:%0AName:%20${encodeURIComponent(name)}%0ALocation:%20${encodeURIComponent(location)}`;
+    if(datetime) msg += `%0ATime:%20${encodeURIComponent(datetime)}`;
+    if(service) msg += `%0AService:%20${encodeURIComponent(service)}`;
+    if(notes) msg += `%0ANotes:%20${encodeURIComponent(notes)}`;
+    const wa = `https://wa.me/918668931097?text=${msg}`;
+    window.open(wa, '_blank');
+  }
+</script>
+
+</body>
+</html>
